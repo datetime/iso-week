@@ -26,6 +26,16 @@ isoWeek();
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/iso-week/issues)
 
+## Related
+
+- [days](https://github.com/jonschlinkert/days)
+- [day-of-year](https://github.com/jonschlinkert/day-of-year)
+- [week](https://github.com/jonschlinkert/week)
+- [weekdays](https://github.com/jonschlinkert/weekdays)
+- [month](https://github.com/jonschlinkert/month)
+- [months](https://github.com/jonschlinkert/months)
+- [year](https://github.com/jonschlinkert/year)
+
 ## Author
 
 **Jon Schlinkert**

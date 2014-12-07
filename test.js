@@ -10,7 +10,7 @@ var moment = require('moment');
 var isoWeek = require('./');
 
 describe('isoWeek()', function () {
-  it('should return an object with the number and name of the current isoWeek', function () {
+  it('should return the current isoWeek', function () {
     isoWeek().should.equal(moment().week());
     isoWeek(new Date()).should.equal(moment().week());
   });
