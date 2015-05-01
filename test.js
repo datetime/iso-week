@@ -5,7 +5,8 @@
  * Licensed under the MIT license.
  */
 
-var should = require('should');
+/* deps: mocha */
+require('should');
 var moment = require('moment');
 var isoWeek = require('./');
 
