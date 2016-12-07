@@ -3,22 +3,15 @@
   "description": "Get the ISO week of the year.",
   "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/iso-week",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/iso-week.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/iso-week",
   "bugs": {
     "url": "https://github.com/jonschlinkert/iso-week/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/iso-week/blob/master/LICENSE"
-  },
-  "files": ["index.js"],
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -41,6 +34,7 @@
     "format",
     "friday",
     "get",
+    "iso",
     "js",
     "monday",
     "month",
