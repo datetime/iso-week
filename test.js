@@ -5,14 +5,14 @@
  * Licensed under the MIT license.
  */
 
-/* deps: mocha */
-require('should');
+require('mocha');
+var assert = require('assert');
 var moment = require('moment');
 var isoWeek = require('./');
 
 describe('isoWeek()', function () {
   it('should return the current isoWeek', function () {
-    isoWeek().should.equal(moment().week());
-    isoWeek(new Date()).should.equal(moment().week());
+    assert.equal(isoWeek(), moment().week());
+    assert.equal(isoWeek(new Date()), moment().week());
   });
 });
