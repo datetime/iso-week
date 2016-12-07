@@ -1,7 +1,7 @@
 {
   "name": "iso-week",
   "description": "Get the ISO week of the year.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/jonschlinkert/iso-week",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/iso-week",
@@ -20,9 +20,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "*",
-    "moment": "^2.8.4",
-    "should": "*"
+    "mocha": "^3.2.0",
+    "moment": "^2.8.4"
   },
   "keywords": [
     "calendar",
