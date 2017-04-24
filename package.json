@@ -20,7 +20,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
+    "mocha": "^3.3.0",
     "moment": "^2.8.4"
   },
   "keywords": [
